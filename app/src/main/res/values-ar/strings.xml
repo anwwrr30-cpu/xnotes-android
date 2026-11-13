@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App General -->
+    <string name="app_name">Xnotes</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="action_search">بحث</string>
+    <string name="action_save">حفظ</string>
+    <string name="action_cancel">إلغاء</string>
+    <string name="action_delete">حذف</string>
+    <string name="action_edit">تعديل</string>
+    <string name="action_share">مشاركة</string>
+
+    <!-- Main Screen & Notes -->
+    <string name="title_activity_main">الملاحظات</string>
+    <string name="hint_search">بحث في الملاحظات...</string>
+    <string name="empty_notes">لا توجد ملاحظات حالياً</string>
+    <string name="hint_note_title">عنوان الملاحظة</string>
+    <string name="hint_note_content">اكتب ملاحظتك هنا...</string>
+    
+    <!-- Dialogs & Messages -->
+    <string name="msg_delete_confirm">هل أنت متأكد من حذف هذه الملاحظة؟ لا يمكن التراجع عن هذا الإجراء.</string>
+    <string name="msg_delete_success">تم حذف الملاحظة بنجاح</string>
+    <string name="msg_save_success">تم حفظ الملاحظة بنجاح</string>
+    <string name="msg_error_saving">حدث خطأ أثناء حفظ الملاحظة</string>
+
+    <!-- Settings & Preferences -->
+    <string name="pref_category_general">عام</string>
+    <string name="pref_category_appearance">المظهر</string>
+    <string name="pref_title_dark_mode">الوضع الليلي</string>
+    <string name="pref_summary_dark_mode">تبديل المظهر بين الوضع الفاتح والداكن</string>
+    <string name="pref_title_language">لغة التطبيق</string>
+    <string name="pref_summary_language">اختر لغة واجهة المستخدم</string>
+
+    <!-- Accessibility & Content Descriptions -->
+    <string name="desc_add_note">إضافة ملاحظة جديدة</string>
+    <string name="desc_note_item">عنصر ملاحظة</string>
+    <string name="desc_menu_options">خيارات إضافية</string>
+</resources>
