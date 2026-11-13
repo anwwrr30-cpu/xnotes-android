@@ -1,38 +1,50 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- App General -->
+    <!-- App Name -->
     <string name="app_name">Xnotes</string>
-    <string name="action_settings">الإعدادات</string>
-    <string name="action_search">بحث</string>
+
+    <!-- General / Common Actions -->
     <string name="action_save">حفظ</string>
     <string name="action_cancel">إلغاء</string>
     <string name="action_delete">حذف</string>
     <string name="action_edit">تعديل</string>
     <string name="action_share">مشاركة</string>
+    <string name="action_search">بحث</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="action_close">إغلاق</string>
+    <string name="action_back">رجوع</string>
+    <string name="action_done">تم</string>
+    <string name="action_ok">موافق</string>
 
-    <!-- Main Screen & Notes -->
-    <string name="title_activity_main">الملاحظات</string>
-    <string name="hint_search">بحث في الملاحظات...</string>
-    <string name="empty_notes">لا توجد ملاحظات حالياً</string>
-    <string name="hint_note_title">عنوان الملاحظة</string>
-    <string name="hint_note_content">اكتب ملاحظتك هنا...</string>
+    <!-- Notes & Canvas Management -->
+    <string name="note_title_hint">عنوان الملاحظة</string>
+    <string name="note_content_hint">اكتب ملاحظتك هنا...</string>
+    <string name="empty_notes_message">لا توجد ملاحظات بعد</string>
+    <string name="delete_note_title">حذف الملاحظة</string>
+    <string name="delete_note_message">هل أنت متأكد من رغبتك في حذف هذه الملاحظة؟ لا يمكن التراجع عن هذا الإجراء.</string>
     
-    <!-- Dialogs & Messages -->
-    <string name="msg_delete_confirm">هل أنت متأكد من حذف هذه الملاحظة؟ لا يمكن التراجع عن هذا الإجراء.</string>
-    <string name="msg_delete_success">تم حذف الملاحظة بنجاح</string>
-    <string name="msg_save_success">تم حفظ الملاحظة بنجاح</string>
-    <string name="msg_error_saving">حدث خطأ أثناء حفظ الملاحظة</string>
+    <!-- Drawing & Canvas Tools -->
+    <string name="tool_pen">قلم</string>
+    <string name="tool_highlighter">قلم تمييز</string>
+    <string name="tool_eraser">ممحة</string>
+    <string name="tool_shapes">أشكال هندسية</string>
+    <string name="tool_text">نص</string>
+    <string name="tool_latex">صيغة رياضية (LaTeX)</string>
 
-    <!-- Settings & Preferences -->
-    <string name="pref_category_general">عام</string>
-    <string name="pref_category_appearance">المظهر</string>
-    <string name="pref_title_dark_mode">الوضع الليلي</string>
-    <string name="pref_summary_dark_mode">تبديل المظهر بين الوضع الفاتح والداكن</string>
-    <string name="pref_title_language">لغة التطبيق</string>
-    <string name="pref_summary_language">اختر لغة واجهة المستخدم</string>
+    <!-- Settings & Configuration -->
+    <string name="settings_title">الإعدادات</string>
+    <string name="settings_language">لغة التطبيق</string>
+    <string name="settings_language_arabic">العربية</string>
+    <string name="settings_language_english">الإنجليزية</string>
+    <string name="settings_theme">المظهر</string>
+    <string name="settings_theme_dark">داكن</string>
+    <string name="settings_theme_light">فاتح</string>
+    <string name="settings_theme_system">حسب النظام</string>
+    <string name="settings_about">حول التطبيق</string>
+    <string name="settings_version">الإصدار %1$s</string>
 
-    <!-- Accessibility & Content Descriptions -->
-    <string name="desc_add_note">إضافة ملاحظة جديدة</string>
-    <string name="desc_note_item">عنصر ملاحظة</string>
-    <string name="desc_menu_options">خيارات إضافية</string>
+    <!-- Dialogs & Errors -->
+    <string name="error_occurred">حدث خطأ ما. يرجى المحاولة مرة أخرى.</string>
+    <string name="permission_required_title">الإذن مطلوب</string>
+    <string name="permission_required_message">يحتاج التطبيق إلى هذا الإذن لكي يعمل بشكل صحيح.</string>
 </resources>
