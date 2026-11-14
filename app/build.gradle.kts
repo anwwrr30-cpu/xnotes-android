@@ -27,6 +27,10 @@ android {
         targetSdk = 36
         versionCode = 70
         versionName = "0.9.9"
+
+        // تم إضافة هذا السطر هنا لتضمين اللغات بشكل قاطع
+        resConfigs("ar", "en")
+
         ndk {
             abiFilters += listOf("arm64-v8a", "armeabi-v7a", "x86_64")
         }
